@@ -36,7 +36,7 @@
 
 ## 提示
 
-```java=
+```java
 public static void main(String[] argv){
     // 1<=x<=100隨機亂數
     int x = Math.random()*100+1;
