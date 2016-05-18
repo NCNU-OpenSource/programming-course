@@ -38,9 +38,9 @@ public class Robot implements Bite {
 }
 ```
 ## 輸入、輸出說明
-首先輸入 `[動物機器人]` `[名稱]`，判斷是老鷹或是獅子，
-如果是老鷹，印出`老鷹名稱:[名稱]` `功能:[撕咬] [飛行]`， 
-如果是獅子，印出`獅子名稱:[名稱]` `功能:[撕咬] [衝撞]`，
+首先輸入 `[動物機器人]` `[名稱]`，判斷是老鷹或是獅子，  
+如果是老鷹，印出`老鷹名稱:[名稱]` `功能:[撕咬] [飛行]`，  
+如果是獅子，印出`獅子名稱:[名稱]` `功能:[撕咬] [衝撞]`，  
 如果都不是，印出`輸入錯誤!`。
 
 如果老鷹(or獅子)已產生一次，再產生老鷹(or獅子)，則印出`已出現過!`
@@ -53,34 +53,35 @@ public class Robot implements Bite {
 
 
 ## 輸入、輸出範例
-首先輸入要產生老鷹(Eagle)或是獅子(Lion)
+首先輸入要產生老鷹(Eagle)或是獅子(Lion)  
 ![](https://i.imgur.com/jCwLKg8.png)
 ![](https://i.imgur.com/NYa3yCo.png)
 ![](https://i.imgur.com/7OnOwX7.png)
 ![](https://i.imgur.com/IlA7hyq.png)
 
-如果都不是則印出錯誤
+如果都不是則印出錯誤  
 ![](https://i.imgur.com/sEu1CDm.png)
 
-如果老鷹(or獅子)已產生一次，再產生老鷹(or獅子)，則印出`已出現過!`
+如果老鷹(or獅子)已產生一次，再產生老鷹(or獅子)，則印出`已出現過!`  
 ![](https://i.imgur.com/uArFHo9.png)
 ![](https://i.imgur.com/vg5xSNZ.png)
 ![](https://i.imgur.com/Rhhng2c.png)
 ![](https://i.imgur.com/b8odSkw.png)
 
-如果老鷹或獅子其中一方沒有產生，而輸入`merge`，印出 `獅子或老鷹還沒產生，無法合體`
+如果老鷹或獅子其中一方沒有產生，而輸入`merge`，印出 `獅子或老鷹還沒產生，無法合體`  
 
 ![](https://i.imgur.com/5hmWEIs.png)
 ![](https://i.imgur.com/yYufdPs.png)
 
-如果老鷹及獅子都產生完了，輸入`merge`，印出`合體機器人名稱:[獅子名稱+老鷹名稱]` `功能:[撕咬] [衝撞] [飛行]`，程式結束。
+如果老鷹及獅子都產生完了，輸入`merge`，印出`合體機器人名稱:[獅子名稱+老鷹名稱]` `功能:[撕咬] [衝撞] [飛行]`，程式結束。  
 ![](https://i.imgur.com/63Ibgit.png)
 ![](https://i.imgur.com/lzsZpTZ.png)
 
 
 
 ## 提示
-Interface 有三個:`撕咬(Bite)`、`衝撞(Collide)`、`飛行(Fly)`
-Class 有五個:
+Interface 有三個:  
+`撕咬(Bite)`、`衝撞(Collide)`、`飛行(Fly)`  
+Class 有五個:  
 主程式:`Team`、獅子:`Lion`、老鷹:`Eagle`、機器人:`Robot`、合體後大機器人:`BigRobot`
 
